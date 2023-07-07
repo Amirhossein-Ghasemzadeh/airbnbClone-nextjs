@@ -6,7 +6,6 @@ interface AvatarProps {
 }
 
 const Avatar: React.FC<AvatarProps> = ({src}) => {
-  // console.log(src)
   return (
     <Image
       src={src || '/images/placeholder.jpg'}

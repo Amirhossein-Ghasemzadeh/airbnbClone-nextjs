@@ -33,7 +33,6 @@ const RegisterModal = () => {
   });
 
   const onSubmit: SubmitHandler<FieldValues> = async (data) => {
-    console.log(data);
     setIsLoading(true);
     try {
       const res = await axios.post('/api/register', data);

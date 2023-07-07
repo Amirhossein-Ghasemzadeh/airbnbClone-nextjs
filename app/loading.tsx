@@ -1,11 +1,7 @@
-import React from 'react';
+import Loader from '@/app/components/Loader';
 
-const loading = () => {
-  return (
-    <h1 style={{marginTop: '10rem', color: 'red', background: 'red',fontSize:"150px"}}>
-      loading
-    </h1>
-  );
+const Loading = () => {
+  return <Loader />;
 };
 
-export default loading;
+export default Loading;

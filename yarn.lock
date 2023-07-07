@@ -993,9 +993,16 @@ damerau-levenshtein@^1.0.8:
   resolved "https://registry.npmjs.org/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
-date-fns@^2.16.1, date-fns@^2.29.3:
+date-fns@^2.16.1:
   version "2.30.0"
   resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.30.0.tgz"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
+
+date-fns@^2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
   integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
   dependencies:
     "@babel/runtime" "^7.21.0"
@@ -2297,10 +2304,10 @@ next-auth@^4.20.1:
     preact-render-to-string "^5.1.19"
     uuid "^8.3.2"
 
-next-cloudinary@^4.0.1:
-  version "4.12.0"
-  resolved "https://registry.npmjs.org/next-cloudinary/-/next-cloudinary-4.12.0.tgz"
-  integrity sha512-PzhY3W5KD9oDSvHUarrbtnx8flSriT4KKGNW2y0wy7VEoxF4bP1VunHWeBvDrAQ1pp7aYHeLVY8SAKMCVjPViA==
+next-cloudinary@^4.13.0:
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/next-cloudinary/-/next-cloudinary-4.13.0.tgz#7170e90374c1a4279ccdefe85561491fd113f780"
+  integrity sha512-tjlsJdJLpN+D/714mH1Vqnca3t1dJeNxAqf1gw+aAcA7zAVax4XMeBznBO01UqQH2nDvfb2PWmTttOwEYhu5vQ==
   dependencies:
     "@cloudinary-util/url-loader" "^3.8.1"
     "@cloudinary-util/util" "^2.0.1"
