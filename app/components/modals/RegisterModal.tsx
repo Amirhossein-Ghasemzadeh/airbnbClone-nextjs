@@ -36,11 +36,10 @@ const RegisterModal = () => {
     setIsLoading(true);
     try {
       const res = await axios.post('/api/register', data);
-      if (res.status === 200) registerModal.onClose();
-      reset();
+      if (res.status === 200) reset({name: '', email: '', password: ''});
       toast.success('Registered!');
       registerModal.onClose();
-      // loginModal.onOpen();
+      loginModal.onOpen();
       setIsLoading(false);
     } catch (err) {
       toast.error('something went wrong!');

@@ -15,7 +15,7 @@ interface InputProps {
 const Input: React.FC<InputProps> = (props) => {
   const {id, label, type, disabled, formatPrice, required, register, errors} =
     props;
-
+    
   return (
     <div className='w-full relative'>
       {formatPrice && (

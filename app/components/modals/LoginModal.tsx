@@ -42,8 +42,8 @@ const LoginModal = () => {
       setIsLoading(false);
 
       if (callback?.ok) {
+        reset({email: '', password: ''});
         toast.success('Logged in');
-        reset();
         router.refresh();
         loginModal.onClose();
       }
