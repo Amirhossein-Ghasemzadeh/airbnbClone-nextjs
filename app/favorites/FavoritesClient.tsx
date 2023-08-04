@@ -5,7 +5,7 @@ import Container from '@/app/components/Container';
 import ListingCard from '@/app/components/listings/ListingCard';
 
 interface FavoritesClientProps {
-  listings?: SafeListing[];
+  listings: SafeListing[] | any;
   currentUser?: SafeUser | null;
 }
 
